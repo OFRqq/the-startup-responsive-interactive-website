@@ -2,6 +2,9 @@ Ontwerp en maak een responsive website voor een startup.
 
 De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
 
+[Milledoni presentatie](https://docs.google.com/presentation/d/1_TKzsXSpYs1pbbkxEpqE_c8ElEG-HphHz5BiJV1eCgA/mobilepresent?slide=id.g323007664e2_0_90)
+
+[Milledoni Figma](https://www.figma.com/design/WkfefWVhBtylD9LCY1T9n2/Milledoni-FDND)
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
