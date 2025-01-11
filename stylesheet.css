@@ -82,4 +82,6 @@ body {
     --rounded: 1em;
     --border: 2px;
 
+    --transition: .3s;
+
 }
