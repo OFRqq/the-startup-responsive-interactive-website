@@ -37,6 +37,8 @@
 
 body {
     
+
+    /* ! SET VAR meerdere dezelfde kleuren naar 1 dezelfde brengen */
 /* white */
     --background-color: #F6F5F5;
     --text-color-white: #F6F5F5;
@@ -44,8 +46,7 @@ body {
 
 
 /* black */
-    --text-color-black: #212121;
-    --accent-color-black: #212121;
+    --color-black: #212121;
 
 /* gray */
     --text-color-gray: #EAEAEA;
