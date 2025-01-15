@@ -37,20 +37,17 @@
 
 body {
     
-
-    /* ! SET VAR meerdere dezelfde kleuren naar 1 dezelfde brengen */
 /* white */
-    --background-color: #F6F5F5;
-    --text-color-white: #F6F5F5;
     --accent-color-white: #F6F5F5;
+    --background-color: var(--accent-color-white);
 
 
 /* black */
-    --color-black: #212121;
+    --accent-color-black: #212121;
 
 /* gray */
-    --text-color-gray: #EAEAEA;
     --accent-color-gray: #EAEAEA;
+    --text-color-gray: var(--accent-color-gray);
 
 /* pink */
     --accent-color-pink: #882B7D;
@@ -60,29 +57,28 @@ body {
 
     
 
-  /*font-size*/
+  /*text sizes*/
     --heading1: 1.8em;
     --heading2: 1.2em;
     --heading4: .75em;
     --heading5: .6em;
     --body-text-paragraph: 1em;
     --button-text: .7em;
+
+    /* text kind */
     --text-bold: bold ;
 
-    /* font-families */
+    /* font families */
     --font-default: "Inter", sans-serif;
     --font-regular: "Parkinsans-Regular" sans-serif;
     --font-medium: "Parkinsans-Medium" sans-serif;
     --font-bold: "Parkinsans-bold" sans-serif;
-/* voorbeeld gebruik font-family
-    h1 {
-        font-family: var(--font-default);
-    } */
 
     /* decoration */
     --rounded: 1em;
     --border: 2px;
 
-    --transition: .3s;
+/* transition time */
+    --global-transition: .3s;
 
 }
