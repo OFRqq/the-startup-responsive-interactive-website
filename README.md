@@ -13,6 +13,29 @@ De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
+### Styleguide
+### Stylesheet
+_In de stylesheet is kebab case verwerkt_ <br> <br>
+**Fonts** <br>
+- font-family: "Parkinsans-bold";
+- font-family: "Parkinsans-Medium";
+- font-family: "Parkinsans-Regular";
+- font-family: "Inter";
+
+**Kleuren** <br>
+- white '#F6F5F5'
+- Black '#212121'
+- Gray '#EAEAEA'
+- Pink '#882B7D'
+- Blue '#086387'
+
+**text sizes**
+- heading1 '1.8em'
+- heading2 '1.2em'
+- heading4 '.75em'
+- heading5 '.6em'
+- body-text-paragraph '1em'
+- button-text '.7em'
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
 ## Bronnen
