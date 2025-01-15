@@ -13,6 +13,43 @@ De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
+### Styleguide
+### Stylesheet
+_In de stylesheet is kebab case verwerkt_ <br> <br>
+**Fonts in de stylesheet** <br> <br>
+`@font-face { <br>
+    font-family: "Parkinsans-bold"; <br>
+    src: <br>
+    url("fonts/Parkinsans-Bold.ttf") format("TrueType"); <br>
+    font-weight: 700; <br>
+    font-style: normal; <br>
+}
+
+@font-face { <br>
+    font-family: "Parkinsans-Medium"; <br>
+    src: <br>
+    url("fonts/Parkinsans-Medium.ttf") format("TrueType"); <br>
+    font-weight: 500; <br>
+    font-style: normal; <br>
+}
+
+@font-face { <br>
+    font-family: "Parkinsans-Regular"; <br>
+    src: <br>
+    url("fonts/Parkinsans-Regular.ttf") format("TrueType"); <br>
+    font-weight: 400; <br>
+    font-style: normal; <br>
+}
+
+@font-face { <br>
+    font-family: "Inter"; <br>
+    src: <br>
+    url("fonts/Inter-VariableFont_opsz,wght.ttf") format("TrueType"); <br>
+    font-weight: normal; <br>
+    font-style: normal; <br>
+}`
+  Kleuren in de stylesheet <br>
+  
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
 ## Bronnen
