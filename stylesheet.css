@@ -1,23 +1,118 @@
+/* ========= Basic Elements =========*/
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* ========= Colors =========*/
+    /* white */
+    --accent-color-white: #F6F5F5;
+    /* black */
+    --accent-color-black: #212121;
+    /* gray */
+    --accent-color-gray: #EAEAEA;
+    /* pink */
+    --accent-color-pink: #882B7D;
+    /* blue */
+    --accent-color-blue: #086387;
+
+    /* ========= Main background-colors =========*/
+    --background-color-white: var(--accent-color-white);
+    --background-color-gray: var(--accent-color-gray);
+
+    /* ========= Text Colors =========*/
+    --text-color-black: var(var(--accent-color-black))
+    --text-color-gray: var(--accent-color-gray);
+
+    /* ========= text sizes =========*/
+    --heading1: 1.8rem;
+    --heading2: 1.2rem;
+    --heading4: .75rem;
+    --heading5: .6rem;
+    --body-text-paragraph: 1rem;
+    --button-text: .7rem;
+    --basic-text: 1em;
+
+    /* ========= font weight =========*/
+    --text-thin: 100;      
+    --text-extra-light: 200; 
+    --text-light: 300;      
+    --text-normal: 400;     
+    --text-medium: 500;     
+    --text-semi-bold: 600;
+    --text-bold: 700;
+    --text-extra-bold: 800;
+    --text-black: 900;
+
+    /* ========= font families =========*/
+    --font-default: "Inter", sans-serif;
+    --font-regular: "Parkinsans-Regular" sans-serif;
+    --font-medium: "Parkinsans-Medium" sans-serif;
+    --font-bold: "Parkinsans-bold" sans-serif;
+
+    /* ========= decoration =========*/
+    --rounded: 1em;
+    --border: 2px;
+
+    /* ========= standard transition time =========*/
+    --global-transition: .3s;
+
+    /* ========= Form Elements =========*/
+}
+
+    /* ========= media queries Phone, Ipad, Laptop/PC =========*/
+@media screen and (min-width: 425px) {
+    body {
+        --font-size-huge: 4rem;
+        --font-size-large: 3rem;
+        --font-size-medium: 2rem;
+        --font-size-normal: 1.4rem;
+        --font-size-small: 1.2rem;
+    }
+}
+    
+@media screen and (min-width: 768px) {
+    body {
+        --font-size-huge: 5rem;
+        --font-size-large: 3.6rem;
+        --font-size-medium: 2.2rem;
+        --font-size-normal: 1.6rem;
+        --font-size-small: 1.3rem;;
+    }
+}
+    
+@media screen and (min-width: 1024px) {
+    body {
+        --font-size-huge: 6rem;
+        --font-size-large: 4.2rem;
+        --font-size-medium: 2.5rem;
+        --font-size-normal: 1.8rem;
+        --font-size-small: 1.5rem;
+    }
+}
+
+
 @font-face {
     font-family: "Parkinsans-bold";
-    src: 
-    url("fonts/Parkinsans-Bold.ttf") format("TrueType");
+    src:
+        url("fonts/Parkinsans-Bold.ttf") format("TrueType");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Parkinsans-Medium";
-    src: 
-    url("fonts/Parkinsans-Medium.ttf") format("TrueType");
+    src:
+        url("fonts/Parkinsans-Medium.ttf") format("TrueType");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Parkinsans-Regular";
-    src: 
-    url("fonts/Parkinsans-Regular.ttf") format("TrueType");
+    src:
+        url("fonts/Parkinsans-Regular.ttf") format("TrueType");
     font-weight: 400;
     font-style: normal;
 }
@@ -25,60 +120,8 @@
 @font-face {
     font-family: "Inter";
     src:
-    url("fonts/Inter-VariableFont_opsz,wght.ttf") format("TrueType");
+        url("fonts/Inter-VariableFont_opsz,wght.ttf") format("TrueType");
     font-weight: normal;
     font-style: normal;
 }
 
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-
-body {
-    
-/* white */
-    --accent-color-white: #F6F5F5;
-    --background-color: var(--accent-color-white);
-
-
-/* black */
-    --accent-color-black: #212121;
-
-/* gray */
-    --accent-color-gray: #EAEAEA;
-    --text-color-gray: var(--accent-color-gray);
-
-/* pink */
-    --accent-color-pink: #882B7D;
-
-/* blue */
-    --accent-color-blue: #086387;
-
-    
-
-  /*text sizes*/
-    --heading1: 1.8em;
-    --heading2: 1.2em;
-    --heading4: .75em;
-    --heading5: .6em;
-    --body-text-paragraph: 1em;
-    --button-text: .7em;
-
-    /* text kind */
-    --text-bold: bold ;
-
-    /* font families */
-    --font-default: "Inter", sans-serif;
-    --font-regular: "Parkinsans-Regular" sans-serif;
-    --font-medium: "Parkinsans-Medium" sans-serif;
-    --font-bold: "Parkinsans-bold" sans-serif;
-
-    /* decoration */
-    --rounded: 1em;
-    --border: 2px;
-
-/* transition time */
-    --global-transition: .3s;
-
-}
