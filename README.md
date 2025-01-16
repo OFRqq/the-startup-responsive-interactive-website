@@ -14,6 +14,17 @@ De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com
 
 ## Kenmerken
 ### Styleguide
+
+Color <br>
+![image](https://github.com/user-attachments/assets/d489f8d7-a0e2-4008-8d0a-3a3970ead088) <br>
+<br><br>
+Typography <br>
+![image](https://github.com/user-attachments/assets/87d1c7b1-444a-441f-af0e-3266b1afe2ae) <br>
+<br><br>
+Forms <br>
+![image](https://github.com/user-attachments/assets/188abf45-5036-4f71-9de4-f94c4a792800) <br>
+
+
 ### Stylesheet
 _In de stylesheet is kebab case verwerkt_ <br> <br>
 **Fonts** <br>
