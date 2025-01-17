@@ -9,5 +9,5 @@ toggleSearch.addEventListener('click', fold)
 
 // function fold toggle classlist ''Jump''
 function fold(e) {
-    targettedDiv.classList.toggle('jump')
+    targettedDiv.classList.toggle('show')
 }
