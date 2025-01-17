@@ -57,28 +57,19 @@ body {
 
     /* ========= standard transition time =========*/
     --global-transition: .3s;
-
+    
     /* ========= Form Elements =========*/
 }
 
     /* ========= media queries Phone, Ipad, Laptop/PC =========*/
+
 @media screen and (min-width: 425px) {
-    body {
-        --font-size-huge: 4rem;
-        --font-size-large: 3rem;
-        --font-size-medium: 2rem;
-        --font-size-normal: 1.4rem;
-        --font-size-small: 1.2rem;
-    }
-}
-    
-@media screen and (min-width: 768px) {
     body {
         --font-size-huge: 5rem;
         --font-size-large: 3.6rem;
         --font-size-medium: 2.2rem;
         --font-size-normal: 1.6rem;
-        --font-size-small: 1.3rem;;
+        --font-size-small: 1.3rem;
     }
 }
     

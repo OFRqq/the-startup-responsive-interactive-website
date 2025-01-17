@@ -1,7 +1,27 @@
-/*main styling*/
 
 /* temporarily */
-.show {
+
+.searchbar-fold {
     display:none;
+}
+.show {
+    display:contents;
+}
+
+.unfold {
+    display:none;
+}
+
+/*main styling*/
+
+@media screen and (min-width: 320px) {
+
+    body {
+        
+
+        nav {
+            display:none;
+        }
+    }
 }
 
