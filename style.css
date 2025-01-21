@@ -1,27 +1,63 @@
+/*========= Main styling =========*/
 
-/* temporarily */
-
-.searchbar-fold {
-    display:none;
-}
-.show {
-    display:contents;
-}
-
-.unfold {
-    display:none;
-}
-
-/*main styling*/
-
-@media screen and (min-width: 320px) {
-
+/* Phone CSS */
+@media screen and (min-width: 300px) {
     body {
-        
 
-        nav {
-            display:none;
+        /* temporarely */
+        .Ideas {
+            padding-top:auto;
+            display:flex;
+            overflow-x:auto;
+        }
+
+        /* standard display */
+
+        .bow-tie {
+            display: none;
+        }
+
+        .unfold {
+            display: none;
+        }
+
+        /* Navigation */
+
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            border-top: 1px solid;
+
+            li a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: var(--basic-text)
+            }
         }
     }
 }
 
+/* Ipad+ CSS */
+@media screen and (min-width: 430px) {
+    body {
+
+        
+        /* standard display Ipad+*/
+
+        .searchbar {
+            display: none;
+        }
+
+        .show {
+            display: contents;
+        }
+
+        .bow-tie {
+            display: contents;
+        }
+    }
+
+}

@@ -1,5 +1,7 @@
 /* ========= Basic Elements =========*/
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -22,8 +24,7 @@ body {
     --background-color-gray: var(--accent-color-gray);
 
     /* ========= Text Colors =========*/
-    --text-color-black: var(var(--accent-color-black))
-    --text-color-gray: var(--accent-color-gray);
+    --text-color-black: var(var(--accent-color-black)) --text-color-gray: var(--accent-color-gray);
 
     /* ========= text sizes =========*/
     --heading1: 1.8rem;
@@ -35,11 +36,11 @@ body {
     --basic-text: 1em;
 
     /* ========= font weight =========*/
-    --text-thin: 100;      
-    --text-extra-light: 200; 
-    --text-light: 300;      
-    --text-normal: 400;     
-    --text-medium: 500;     
+    --text-thin: 100;
+    --text-extra-light: 200;
+    --text-light: 300;
+    --text-normal: 400;
+    --text-medium: 500;
     --text-semi-bold: 600;
     --text-bold: 700;
     --text-extra-bold: 800;
@@ -57,12 +58,21 @@ body {
 
     /* ========= standard transition time =========*/
     --global-transition: .3s;
-    
+
     /* ========= Form Elements =========*/
-}
 
-    /* ========= media queries Phone, Ipad, Laptop/PC =========*/
+    /* ========= Elements =========*/
+    a:hover {
+        color: blue;
+    }
 
+    ul, a, a{
+        list-style-type: none;
+        text-decoration: none;
+        color:var(--text-color-black)
+    }
+
+/* ========= media queries Phone, Ipad, Laptop/PC =========*/
 @media screen and (min-width: 425px) {
     body {
         --font-size-huge: 5rem;
@@ -72,7 +82,7 @@ body {
         --font-size-small: 1.3rem;
     }
 }
-    
+
 @media screen and (min-width: 1024px) {
     body {
         --font-size-huge: 6rem;
@@ -82,7 +92,6 @@ body {
         --font-size-small: 1.5rem;
     }
 }
-
 
 @font-face {
     font-family: "Parkinsans-bold";
@@ -116,3 +125,4 @@ body {
     font-style: normal;
 }
 
+}
