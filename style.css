@@ -4,12 +4,15 @@
 @media screen and (min-width: 300px) {
     body {
 
+        /* grid */
+        
         /* temporarely */
         .Ideas {
             padding-top:auto;
             display:flex;
             overflow-x:auto;
         }
+        padding:0 0 500px 0;
 
         /* standard display */
 
@@ -27,7 +30,7 @@
             bottom:0;
             left:0;
             right:0;
-            background-color:var(--background-color-white: var(--accent-color-white););
+            background-color:var(--background-color-white);
         }
         nav ul {
             display: flex;
@@ -40,7 +43,16 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                color: var(--basic-text)
+                color: var(--basic-text);
+                font-family:var(--font-default);
+            }
+        }
+
+        .Milledoni-title {
+            text-align: center;
+            padding:40% 0 0 0;
+            svg {
+            width:90%;
             }
         }
     }
