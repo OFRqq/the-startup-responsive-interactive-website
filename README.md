@@ -59,5 +59,3 @@ _Huisstijl en andere ontwerpen van Milledoni_
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
 
-
-https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/6d0c8d0e5ee518c88971cd43b06e73b867ef25f8/index.html#L13C1-L24C20
