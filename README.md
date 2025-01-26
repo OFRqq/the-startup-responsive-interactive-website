@@ -54,6 +54,7 @@ De website is mobile first gemaakt, dit houd in dat je mobile begint en vanaf da
 ## Technieken
 **HTML** | Binnen de classes in html is gewerkt met kebab-case, verder is binnen de html comments geplaatst bij belangrijke punten zoals de navigation, Title en searchbar
 https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/index.html#L14-L65
+https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/6cd4071d9cac27ee4d6efd78137a6b01ab17496b/index.html#L78-L104
 https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/index.html#L105-L117
 
 **CSS** | In CSS word er gebruik gemaakt van een stylesheet die de huisstijl meegeeft van Milledoni
