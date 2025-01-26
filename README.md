@@ -29,6 +29,11 @@ Hierdoor is er focus op één taak, het bekijken van de verschillende cadeau's. 
 ![image](https://github.com/user-attachments/assets/88f1d3e8-07c6-4ddf-92c0-affb34d1a0a7)
 _breakdownschets van de interactie op laptop versie van Milledoni, hier zie je een menu dat volledig open is zonder zoekbalk met meer ruimte voor de gepersonaliseerde cadeau's, en je de chatbox kan uitklappen voor gedetailleerd zoeken._ 
 
+De functie heeft feedforward doordat er "searchbar" bij staat, hierdoor weet je dat er bij deze knop een searchbar zou kunnen uitklappen, wanneer je erop klikt is er feedback omdat de chatbox rechtonder verschijnt en de actie dus is gelukt
+
+https://github.com/user-attachments/assets/c99caf1a-9ec0-4912-8c51-09b6b89c9e52
+
+
 
 ![image](https://github.com/user-attachments/assets/e611d50c-816f-4043-babe-b46d99bba9b1)
 
