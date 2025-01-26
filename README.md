@@ -45,14 +45,14 @@ _breakdownschets mobile versie van Milledoni, hierbij zie je dat de navigatie ex
 ### responsiveness
 De website heeft 2 breakpoints waar hij zich op aanpast, maat small (iphone) en maat Medium+ (Ipad-laptop) door media quarries
 
-***Maat S*** | 300px: https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/00bb85e27edbe0800b4458d58a686844e340d5b1/style.css#L3-L73
+***Maat S*** | 300px: https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/ec91e73e1b9090a157e9d1920154627e6adc9a48/style.css#L3-L77
 ![image](https://github.com/user-attachments/assets/4f498a17-f62d-4b8a-9f07-20fe5d741554)
 ![image](https://github.com/user-attachments/assets/961cf5e9-a5e4-48cb-90f7-c4a77eeaeb19)
 
 
 
 
-***Maat M+*** | 430px: https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/00bb85e27edbe0800b4458d58a686844e340d5b1/style.css#L75-L95
+***Maat M+*** | 430px: https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/ec91e73e1b9090a157e9d1920154627e6adc9a48/style.css#L79-L133
 ![image](https://github.com/user-attachments/assets/af075d81-813c-4194-9aa4-b6736a562987)
 ![image](https://github.com/user-attachments/assets/cd73cd1c-a09b-470b-8013-16e19532fe98)
 
@@ -72,7 +72,9 @@ verder is er een volgorde aangehouden van de structuur uit de html, wel worden '
 https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/style.css#L17-L26
 
 **JS** | In de javascript file staat een functie, bij het clicken van de strik met de class `bow-tie` ontstaat er een `classlist.toggle` gericht op de targetted div. De JS file is via comments verklaard.
-https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/4072b6b40443b4638abc26bc831791f517eb6033/main.js#L1-L12
+
+https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/ec91e73e1b9090a157e9d1920154627e6adc9a48/main.js#L1-L12
+
 ## Bronnen
 [Milledoni presentatie](https://docs.google.com/presentation/d/1_TKzsXSpYs1pbbkxEpqE_c8ElEG-HphHz5BiJV1eCgA/mobilepresent?slide=id.p)
 _De presentatie waar je onder andere de opdracht kan vinden van Milledoni_
