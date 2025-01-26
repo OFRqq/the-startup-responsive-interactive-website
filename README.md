@@ -6,12 +6,12 @@
 Milledoni is een website  om het perfecte cadeau te vinden voor je naasten. Met een simpele indeling, persoonlijke suggesties en een chatfunctie maakt Milledoni het makkelijk en leuk om cadeaus te ontdekken, of je nu op je telefoon of computer zoekt. Milledoni is de plek voor de beste cadeau's!
 
 ## instructies
-**De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)**
+**De instructies voor deze opdracht staan in: [INSTRUCTIONS](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)**
 
 ## Beschrijving
 Project Milledoni behoort tot het bouwen van een nieuwe en moderne website die andere functies bevat dan van de [oude website](https://milledoni.nl/). Daar moest je in eem form invullen voor wie het was (leeftijd, gender, eigenschappen, etc..) terwijl er op de moderne website een pagina word gemaakt waarin een searchbar zit met AI bot, hierdoor is het eenvoudig te zoeken voor een cadeau en kan je de Ai bot ook nog om hulp of advies vragen wanneer je er niet uitkomt. 
 
-De website heeft ook een betere uitstraling en komt zakelijker en klantvriendelijk over. De website is te benaderen op iphone ipad en laptop, de chatfunctie is voor telefoon zichtbaar in het midden van het scherm. Wanneer je naar beneden scrolled zie je andere resulaten van cadeau's op basis van de zoekresultaten en de gegevens van de persoon. Op Ipad is de zoekfuntie aan de linkerkant van het scherm en kan deze worden uitgeklapt door de strik, hierdoor is er meer ruimte voor gepersonaliseerde cadeau's . Op laptop is de zoekfunctie bovenin verstopt en komt deze tevoorschijn door te clicken op de strik op het scherm. Hierdoor heb je meer rijen en plek voor de gepersonaliseerde cadeau's waardoor de persoon misschien al eerder weet wat die wilt halen, of gewoon ter inspiratie voor een idee.
+De website heeft ook een betere uitstraling en komt zakelijker en klantvriendelijk over. De website is te benaderen op iphone ipad en laptop, de chatfunctie is voor telefoon zichtbaar in het midden van het scherm. Wanneer je naar beneden scrolt zie je andere resulaten van cadeau's op basis van de zoekresultaten en de gegevens van de persoon. Op laptop is de zoekfunctie bovenin verstopt en komt deze tevoorschijn door te clicken op de strik op het scherm. Hierdoor heb je meer rijen en plek voor de gepersonaliseerde cadeau's waardoor de persoon misschien al eerder weet wat die wilt halen, of gewoon ter inspiratie voor een idee.
 
 Dit project is gemaakt met de basis van het web en externe hulpmiddelen, figma, HTML, CSS en JS.
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
@@ -32,7 +32,7 @@ _breakdownschets van de interactie op laptop versie van Milledoni, hier zie je e
 
 ![image](https://github.com/user-attachments/assets/e611d50c-816f-4043-babe-b46d99bba9b1)
 
-_breakdownschets mobile versie van Milledoni, hierbij zie je dat de navigatie express onderin staat waardoor er ruimte ontstaat voor hetgene dat de bezoeker wilt, namelijk een zoekbalk waar diegene kan zoeken voor een cadeau._
+_breakdownschets mobile versie van Milledoni, hierbij zie je dat de navigatie express onderin staat waardoor er ruimte ontstaat voor hetgene dat de bezoeker wilt, namelijk een zoekbalk waar diegene kan zoeken voor een cadeau. Ook kan de bezoeker naar beneden scrollen om andere cadeau's te bekijken_
 
 ### responsiveness
 De website heeft 2 breakpoints waar hij zich op aanpast, maat small (iphone) en maat Medium+ (Ipad-laptop) door media quarries
@@ -50,41 +50,17 @@ De website heeft 2 breakpoints waar hij zich op aanpast, maat small (iphone) en 
 
 De website is mobile first gemaakt, dit houd in dat je mobile begint en vanaf daar verder werkt naar bredere grotes zoals ipad, laptop etc...
 
-### Styleguide
-
-Color <br>
-![image](https://github.com/user-attachments/assets/d489f8d7-a0e2-4008-8d0a-3a3970ead088) <br>
-<br><br>
-Typography <br>
-![image](https://github.com/user-attachments/assets/87d1c7b1-444a-441f-af0e-3266b1afe2ae) <br>
-<br><br>
-Forms <br>
-![image](https://github.com/user-attachments/assets/188abf45-5036-4f71-9de4-f94c4a792800) <br>
-
-
-### Stylesheet
-_In de stylesheet is kebab case verwerkt_ <br> <br>
-**Fonts** <br>
-- font-family: "Parkinsans-bold";
-- font-family: "Parkinsans-Medium";
-- font-family: "Parkinsans-Regular";
-- font-family: "Inter";
-
-**Kleuren** <br>
-- white '#F6F5F5'
-- Black '#212121'
-- Gray '#EAEAEA'
-- Pink '#882B7D'
-- Blue '#086387'
-
-**text sizes**
-- heading1 '1.8em'
-- heading2 '1.2em'
-- heading4 '.75em'
-- heading5 '.6em'
-- body-text-paragraph '1em'
-- button-text '.7em'
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+## Technieken
+**HTML** | Binnen de classes in html is gewerkt met kebab-case, verder is binnen de html comments geplaatst bij belangrijke punten zoals de navigation, Title en searchbar
+https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/index.html#L14-L65
+https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/index.html#L105-L117
+
+**CSS** | In CSS word er gebruik gemaakt van een stylesheet die de huisstijl meegeeft van Milledoni
+https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/stylesheet.css#L1-L128
+
+verder is er een volgorde aangehouden van de structuur uit de html, wel worden ''standard displays'' als eerst gebruikt waarbij de class van de chat word verstopt via `display:none;`,hierdoor zie je op groter scherm de chat pas wanneer je op de strik-knop clickt, dan word de chat naar voren gehaald. 
+https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/style.css#L17-L26
 
 ## Bronnen
 [Milledoni presentatie](https://docs.google.com/presentation/d/1_TKzsXSpYs1pbbkxEpqE_c8ElEG-HphHz5BiJV1eCgA/mobilepresent?slide=id.p)
