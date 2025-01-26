@@ -21,7 +21,7 @@ Dit project is gemaakt met de basis van het web en externe hulpmiddelen, figma, 
 ## Kenmerken
 
 ### ontwerpkeuzes 
-Bijn mijn ontwerp is er gekozen voor een makkelijk en duidelijk design waarbij de gebruiker direct weet wat hij moet doen. Zo is de chatbox bij mobile in het midden van het scherm geplaatst, en diegene naar beneden kan scrollen voor meer resulaten over verschillende cadeau ideeën. 
+Bij mijn ontwerp is er gekozen voor een makkelijk en duidelijk design waarbij de gebruiker direct weet wat hij moet doen. Zo is de chatbox bij mobile in het midden van het scherm geplaatst, en diegene naar beneden kan scrollen voor meer resulaten over verschillende cadeau ideeën. 
 
 Dit is meegenomen in het design voor laptop, alleen is de chat ingeklapt waardoor er eerst cadeau's kunnen worden gegenereerd op basis van de persoon zijn persoonlijke informatie. 
 Hierdoor is er focus op één taak, het bekijken van de verschillende cadeau's. Bovenin is er een strik waaruit een chatbox uitklapt, hierdoor kan de gebruiker focussen op het invullen van gegevens inplaats van het rondkijken naar gepersonaliseerde cadeau's.
