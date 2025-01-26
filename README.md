@@ -43,7 +43,7 @@ _[live website](https://ofrqq.github.io/the-startup-responsive-interactive-websi
 _breakdownschets mobile versie van Milledoni, hierbij zie je dat de navigatie express onderin staat waardoor er ruimte ontstaat voor hetgene dat de bezoeker wilt, namelijk een zoekbalk waar diegene kan zoeken voor een cadeau. Ook kan de bezoeker naar beneden scrollen om andere cadeau's te bekijken_
 
 ### responsiveness
-De website heeft 2 breakpoints waar hij zich op aanpast, maat small (iphone) en maat Medium+ (Ipad-laptop) door media quarries
+De website heeft 2 breakpoints waar hij zich op aanpast, maat small (iphone) en maat Medium+ (Ipad-laptop) door media quarries. Er word gebruik gemaakt van min-width en is er genest
 
 ***Maat S*** | 300px: https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/ec91e73e1b9090a157e9d1920154627e6adc9a48/style.css#L3-L77
 ![image](https://github.com/user-attachments/assets/4f498a17-f62d-4b8a-9f07-20fe5d741554)
