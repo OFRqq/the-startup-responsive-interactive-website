@@ -62,6 +62,8 @@ https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf
 verder is er een volgorde aangehouden van de structuur uit de html, wel worden ''standard displays'' als eerst gebruikt waarbij de class van de chat word verstopt via `display:none;`,hierdoor zie je op groter scherm de chat pas wanneer je op de strik-knop clickt, dan word de chat naar voren gehaald. 
 https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf8bc372b8d2b9c219e223158d5ed6d870b/style.css#L17-L26
 
+**JS** | In de javascript file staat een functie, bij het clicken van de strik met de class `bow-tie` ontstaat er een `classlist.toggle` gericht op de targetted div. De JS file is via comments verklaard.
+https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/4072b6b40443b4638abc26bc831791f517eb6033/main.js#L1-L12
 ## Bronnen
 [Milledoni presentatie](https://docs.google.com/presentation/d/1_TKzsXSpYs1pbbkxEpqE_c8ElEG-HphHz5BiJV1eCgA/mobilepresent?slide=id.p)
 _De presentatie waar je onder andere de opdracht kan vinden van Milledoni_
