@@ -34,7 +34,7 @@ _breakdownschets van de interactie op laptop versie van Milledoni, hier zie je e
 De functie heeft feedforward doordat er "searchbar" bij staat, hierdoor weet je dat er bij deze knop een searchbar zou kunnen uitklappen, wanneer je erop klikt is er feedback omdat de chatbox rechtonder verschijnt en de actie dus is gelukt
 
 https://github.com/user-attachments/assets/c99caf1a-9ec0-4912-8c51-09b6b89c9e52
-
+_[live website](https://ofrqq.github.io/the-startup-responsive-interactive-website/)_
 
 
 ![image](https://github.com/user-attachments/assets/e611d50c-816f-4043-babe-b46d99bba9b1)
