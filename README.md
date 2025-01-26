@@ -30,7 +30,7 @@ Hierdoor is er focus op één taak, het bekijken van de verschillende cadeau's. 
 _breakdownschets van de interactie op laptop versie van Milledoni, hier zie je een menu dat volledig open is zonder zoekbalk met meer ruimte voor de gepersonaliseerde cadeau's, en je de chatbox kan uitklappen voor gedetailleerd zoeken._ 
 
 ### Functie
-**Uitklapbare chat-box functie**
+**Uitklapbare chat-box functie** |
 De functie heeft feedforward doordat er "searchbar" bij staat, hierdoor weet je dat er bij deze knop een searchbar zou kunnen uitklappen, wanneer je erop klikt is er feedback omdat de chatbox rechtonder verschijnt en de actie dus is gelukt
 
 https://github.com/user-attachments/assets/c99caf1a-9ec0-4912-8c51-09b6b89c9e52
