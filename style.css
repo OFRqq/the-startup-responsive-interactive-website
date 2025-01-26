@@ -90,6 +90,9 @@
         .bow-tie {
             display: contents;
         }
+        header {
+            text-lign:center;
+        }
     }
 
 }
