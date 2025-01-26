@@ -5,14 +5,13 @@
     body {
 
         /* grid */
-        
+
         /* temporarely */
         .Ideas {
-            padding-top:auto;
-            display:flex;
-            overflow-x:auto;
+            padding-top: auto;
+            display: flex;
+            overflow-x: auto;
         }
-        padding:0 0 200px 0;
 
         /* standard display */
 
@@ -26,12 +25,13 @@
 
         /* Navigation */
         nav {
-            position:fixed;
-            bottom:0;
-            left:0;
-            right:0;
-            background-color:var(--background-color-white);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--background-color-white);
         }
+
         nav ul {
             display: flex;
             flex-direction: row;
@@ -44,28 +44,32 @@
                 flex-direction: column;
                 align-items: center;
                 color: var(--basic-text);
-                font-family:var(--font-default);
+                font-family: var(--font-default);
             }
         }
 
         .Milledoni-title {
             text-align: center;
-            padding:50% 0 0 0;
+            padding: 40% 0 0 0;
+
             svg {
-            width:90%;
+                width: 90%;
             }
         }
+
         .searchbar {
             text-align: center;
+
             h2 {
                 padding: 0 0 20px 0;
                 font-family: var(--font-default);
                 font-size: var(--heading2);
             }
         }
+
         .inputbar {
             width: 100%;
-            max-width: 300px ;
+            max-width: 300px;
             margin: 10px;
             padding: 20px;
         }
@@ -76,7 +80,7 @@
 @media screen and (min-width: 430px) {
     body {
 
-        
+
         /* standard display Ipad+*/
 
         .searchbar {
@@ -85,14 +89,45 @@
 
         .show {
             display: contents;
+            
         }
 
         .bow-tie {
             display: contents;
         }
+
         header {
-            text-lign:center;
+            text-align: center;
+        }
+
+        .Milledoni-title {
+            text-align: center;
+            padding: 15% 0 0 0;
+
+            svg {
+                width: 90%;
+            }
         }
     }
 
 }
+
+@keyframes bibber {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px);
+    }
+    40% {
+      transform: translate(0);   
+    }
+    60% {
+      transform: translate(2px);
+    }
+    80% {transform: translate(0px);
+    }
+    100% {
+      transform: translate(-2px);
+    }
+  }
