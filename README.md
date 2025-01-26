@@ -66,8 +66,14 @@ https://github.com/OFRqq/the-startup-responsive-interactive-website/blob/23605bf
 [Milledoni presentatie](https://docs.google.com/presentation/d/1_TKzsXSpYs1pbbkxEpqE_c8ElEG-HphHz5BiJV1eCgA/mobilepresent?slide=id.p)
 _De presentatie waar je onder andere de opdracht kan vinden van Milledoni_
 
-[Milledoni Figma](https://www.figma.com/design/WkfefWVhBtylD9LCY1T9n2/Milledoni-FDND)
-_Huisstijl en andere ontwerpen van Milledoni_
+[Milledoni team Figma](https://www.figma.com/design/WkfefWVhBtylD9LCY1T9n2/Milledoni-FDND)
+_Huisstijl en andere ontwerpen van mensen uit het Milledoni team_
+
+[Milledoni Opdrachtgever](https://www.figma.com/design/tHCHwBm3Ujv7wR28VU2BSu/Milledoni?node-id=0-1&t=irKT3Z9AKyvK2HYj-1)
+_Huisstijl en andere ontwerpen van Milledoni in figma_
+
+[Persoonlijke Milledoni figma file](https://www.figma.com/design/JXx57fl2BLyLUdYQCWMYfW/Milledoni%2B?node-id=0-1&t=mv40Qyf7YDCd5dTH-1)
+_hier staan belangrijke concepten die worden gebruikt in deze repository_
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
